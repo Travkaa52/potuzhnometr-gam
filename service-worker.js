@@ -1,5 +1,4 @@
-importScripts("/precache-manifest.18932efba5fb40953433c75f503350f4.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
+importScripts("precache-manifest.18932efba5fb40953433c75f503350f4.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 workbox.setConfig({ debug: true });
 
 workbox.core.setCacheNameDetails({ prefix: "fundocs" });
